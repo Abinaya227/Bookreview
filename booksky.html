@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+       <div class="navbar">
+        <h1>BookReview Website</h1>
+       </div>
+
+         <div class="container">
+            <div class="book-container">
+                <h2>A Bend in the River</h2>
+                <h5>V.S. Naipaul</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, minus? Quia laudantium culpa obcaecati dolores quasi ad sed hic ullam voluptatem. Alias sint adipisci aliquid dolorem laudantium cum veniam deleniti!
+                </p>
+                <button onclick="deletebook(event)">Delete</button>
+            </div>
+         </div>
+         <div class="popup-overlay">   </div>
+          <div class="popup-box">
+            <h2>Add Books</h2>
+            <form>
+                <input type="text" placeholder="Book Title" id="book-title">
+                <input type="text" placeholder="Book Author" id="book-author">
+                 <textarea placeholder="Short-description" id="book-des"></textarea>
+                 <button id="add-book"  >ADD</button>
+                 <button id="cancel-book" >CANCEL</button>
+
+            </form>
+          </div>  
+      
+
+<button class="add" id="addpop">+</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
